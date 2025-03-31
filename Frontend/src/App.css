@@ -678,16 +678,23 @@ html, body {
 .download-image-button:hover {
   background-color: #45a049; /* Darker green on hover */
 }
+li { /* Assuming your chat session tabs are list items (li) */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically align items in the center */
+    padding: 8px 12px; /* Adjust padding as needed */
+    cursor: pointer;
+    /* Add any other styles for your list items */
+}
 
 .delete-session-button {
-  background: none;
-  border: none;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  padding: 0;
-  margin-left: auto; /* Push the button to the right */
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 0;
 }
 
 .delete-session-button:hover {
-  color: darkred;
+    color: darkred;
 }
